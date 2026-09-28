@@ -1,0 +1,15 @@
+
+
+try{
+
+if(request.getStatusCode == 200){
+    //perform operation
+}
+else{
+    system.debug ('Get Error' + getStatusCode);
+}
+
+}
+catch(e){
+    system.debug('Error', e.getError());
+}

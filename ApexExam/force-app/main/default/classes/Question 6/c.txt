@@ -1,0 +1,3 @@
+
+
+=> batch scope helps to optimisely use governor-limit usage, helps to smartly use the governor-limit so that we do not hit governor limit

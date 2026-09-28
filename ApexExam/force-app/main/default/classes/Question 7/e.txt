@@ -1,0 +1,3 @@
+
+=> It helps use to perform logic and data manipulation validation with mock data, as in test we do not touch the real database.
+=> Helps to think about positive and negative scenario while writing Apex code.

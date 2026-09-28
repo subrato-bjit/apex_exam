@@ -1,0 +1,2 @@
+=> We can use Batchable and write different trigger class for all.
+=> Using Batchable we can perform large amount of data and multiple Opportunities and Accounts safely in one transaction. Lets think it as a way of processing Like a chunk by chunk process.

@@ -1,0 +1,13 @@
+Design a bulk test involving a significant number of Opportunities and explain what behaviors should be
+asserted to verify that the implementation is correctly bulkified
+
+
+=> we need to use batchable to perform bulikfition
+
+Test.StartTest();
+
+Database.insert(Opportunities, 200);
+
+Test.StopTest();
+
+update Opportunities;

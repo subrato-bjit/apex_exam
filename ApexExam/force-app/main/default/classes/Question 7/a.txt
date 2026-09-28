@@ -1,0 +1,13 @@
+
+
+=> We need to compare the value of Closed Won with expected and current using assertEquals fucntion
+for example:
+
+Opportunity opp = new Opportunity();
+
+String expected = opp.add('Opportunity_Reward__c record', 'Class Won')
+String current = Opportunity.Opportunity_Reward__c;
+
+assertEquals(expected, current);
+
+update opp;

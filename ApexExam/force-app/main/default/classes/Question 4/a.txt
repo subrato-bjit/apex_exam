@@ -1,0 +1,5 @@
+Explain the difference between record-level access and object/field-level access in the context of this
+scenario
+
+=> Record level object means we can access all the Record fields.
+=> On the Other hand object/field-level access meand only the specfici object/field access

@@ -1,0 +1,4 @@
+=> We will use Trigger (before insert and before update)
+=> where we will compare Trigger.new with Trigger.old to  prevent duplicate Vulnerability__c and Software_Product_Vulnerability__c records
+while processing large amounts of data
+=> will use DML outside Loop 

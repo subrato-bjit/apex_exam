@@ -1,0 +1,5 @@
+=> first we will perform trigger to check wether the data is previously changed or need to updated
+=> Then run Batchable
+=> Perform DML
+=> Handle error
+=> If error found use Roll Back

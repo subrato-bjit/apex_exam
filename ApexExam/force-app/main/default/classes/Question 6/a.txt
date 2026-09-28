@@ -1,0 +1,21 @@
+
+public class BatchableCode implements Database.Batchable Statefull{
+
+    Integer totalUpdated = 0;
+    Integer totalFailed = 0;
+
+    Database.Batchable start(BatchableContext context){
+
+        //perform operations
+
+    }
+
+    void execute(){
+        //perform exection like update/totalProcessed
+    }
+
+    void finish(){
+        system.debug('Total updated ' + totalUpdated);
+        system.debug('Total failed' + totalFailed);
+    }
+}

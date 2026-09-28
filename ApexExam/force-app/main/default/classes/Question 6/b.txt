@@ -1,0 +1,15 @@
+=> We intially have to create a AccountTierService class
+=> in CalculateTier
+//main logic
+if(!Annual Revenue == null && Annual Revenue >= 10,000,000){
+    return 'Enterprise';
+}
+if(!Annual Revenue == null && Annual Revenue >= 1,000,000) || (!Annual Revenue == null && Annual Revenue <= 10,000,000){
+    return 'Medium';
+}
+else{
+    return 'Small';
+}
+
+=> Then use Batchable to perfrom the Customer_Tier__c update of 2 million data
+=> Before update, insert we will user Trigger(Before insert, before update). To optimized.

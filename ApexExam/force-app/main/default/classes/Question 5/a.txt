@@ -1,0 +1,8 @@
+try {
+insert leadsToInsert;
+} catch (Exception e) {
+System.debug('Error');
+}
+
+=> Here we did not used asynchrouns operation
+=> also did not perform DML operation following standard approach like outside the for loop.

@@ -1,0 +1,7 @@
+ public class AccountProcess{
+
+    public void getAccount(){
+
+        Account acc = [SELECT  Id, Name FROM Contacts];
+    }
+ }

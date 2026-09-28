@@ -1,0 +1,5 @@
+Write the Validation Rule formula that prevents an Opportunity from being saved as Closed Won when
+Amount is blank or not greater than zero.
+
+=> the rule is
+NOT(if((!Amount.isBlank) || (Amount>0) ))

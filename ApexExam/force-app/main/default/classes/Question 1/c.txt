@@ -1,0 +1,2 @@
+=> I will use nested Account and Contact(Like child query inside a parent query) SOQL operation  so that record-level access and appropriate object/field
+access are respected when the method executes

@@ -1,0 +1,3 @@
+=> Currectly we are not using batch update for this we can hit givernor limit
+=> Besided we are manually updating one by one which is not optimised solution
+=> need to use Batchable/QUeuable for bulkified.

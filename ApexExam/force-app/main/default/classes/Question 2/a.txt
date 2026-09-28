@@ -1,0 +1,2 @@
+=> We should have used Before insert, before update in the Trigger
+=> Need to USE DML outside for loop, now it runs for every update

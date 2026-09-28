@@ -1,0 +1,4 @@
+=> for each Service class/Batchable/Class we need to create different Trigger class.
+=> As it helps to separates the business logic.
+=> Like the MVC format
+=> Also using separates from business logic makes it eaier to test the implementations of the logic.

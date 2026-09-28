@@ -1,0 +1,7 @@
+=> First we have add the Externeal API using Name Crendtial and Externeal Crendtial, Permission Setting.
+=> Callout only once to optimize performance
+=> Add trigger before insert and update
+=> Implement Queable /Batchable update
+=> Implement Scheduler
+=> Follow standard coding practise like not performing DML in Loop.
+

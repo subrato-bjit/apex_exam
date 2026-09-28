@@ -1,0 +1,6 @@
+=> I will craete External API first
+=> Add Name Credential(External_API_Credential)
+=> Then add Principal
+=> Add ApiKey
+=>  Add header({''Bearer ' & $Credential_External_API_Credential''})
+=> Add Permission using Permission Set

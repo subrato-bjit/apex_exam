@@ -1,0 +1,12 @@
+
+Http http = new Http();
+HttpRequest request = new HttpRequest();
+request.SetHeader = http('GET');
+
+if(request.getStatusCode ==200)
+{
+    Map<String, Object> = new Map<String, Object> JSON.desrialiseByBody()
+}
+else{
+    return 'SOmething went wrong';
+}

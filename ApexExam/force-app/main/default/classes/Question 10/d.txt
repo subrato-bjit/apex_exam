@@ -1,0 +1,8 @@
+
+
+=> We can use Scheduler to automated the test strategy
+=> Implement try and catch and Status response code for API failures
+=> Use Trigger.new and Trigger.old to prevent duplicate data
+=> Use Batchable and Queable to bulk processing.
+=> use asynchronous for HTTP callout
+=> User HttpCalloutMock for HTTP callout mocking

@@ -1,0 +1,2 @@
+=> I will perform DML outside of the loop
+=> Use Batchable to process large amount of data processing which will optimise the governor-limit and increase scalability

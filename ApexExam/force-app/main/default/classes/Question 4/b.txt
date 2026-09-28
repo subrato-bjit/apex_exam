@@ -1,0 +1,8 @@
+Show how you would design the Apex class declaration and data-access operations so that the user’s
+record-level access is appropriately considered. 
+
+// Record Level access
+=> Opportunity opp = new Opportunity();
+
+//object/Field-level
+=> opp.StageName = 'Class Won';

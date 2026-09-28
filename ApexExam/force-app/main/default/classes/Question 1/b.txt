@@ -1,0 +1,6 @@
+Design the text-search operation across Account and Contact. Write the appropriate Apex query and
+explain why the selected query mechanism is suitable for this requiremen
+
+
+ Account acc = [SELECT  Id, Name FROM Contacts];
+ Contact contatc = [SELECT  Id, Name, Eamil FROM Contacts];

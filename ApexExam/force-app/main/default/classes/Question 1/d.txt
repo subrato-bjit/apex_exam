@@ -1,0 +1,3 @@
+=> We will use trigger to solve the issue.
+=> Like using Trigger before insert, before update.
+=> Can also perform DML operation outside the loop to solve the issue

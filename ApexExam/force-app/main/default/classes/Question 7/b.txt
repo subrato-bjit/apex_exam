@@ -1,0 +1,19 @@
+
+Opportunity opp = new Opportunity();
+
+
+// Positive Testcase
+String expected = opp.add('Opportunity_Reward__c record', 'Class Won')
+String current = Opportunity.Opportunity_Reward__c;
+
+assertEquals(expected, current);
+
+update opp;
+
+// Negative Testcase
+String expected = opp.add('Opportunity_Reward__c record', 'Negative Test')
+String current = Opportunity.Opportunity_Reward__c;
+
+assertEquals(expected, current);
+
+update opp;

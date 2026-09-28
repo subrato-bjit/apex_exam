@@ -1,0 +1,7 @@
+Assume the class currently executes its query and DML operations without considering the running user’s
+access. Identify the security risks this creates and describe how you would redesign the service securely
+
+=> USing 'share with '  respects the user permission
+=> using 'share without' does not respect the uer permission.
+
+=> The main security risk is it can expose the user data which he does not intened to see the person is accessing.

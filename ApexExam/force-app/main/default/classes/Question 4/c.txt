@@ -1,0 +1,13 @@
+public class share with Apex{
+
+    public CRUD(){
+
+        Opportunity opportunity = [SLECT Id, Name from Account WITH USER_MODE];
+
+        for(Opportunity opp :opportunity){
+            return 'Test';
+        }
+        //CRUD operation
+        insert opp;
+    }
+}

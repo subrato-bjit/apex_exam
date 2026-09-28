@@ -1,0 +1,7 @@
+Explain how meaningful exception handling should be structured when an operation may encounter DML
+errors. Include the role of try, catch, and finally where each is appropriat
+
+
+=> Exception handling helps to find the exact error type.
+=> we can use different types of build in exception handeling method like getError(), NullPointerError(), getErrorType() to get the idea of what types of error occurs.
+=> Try,catch, and finally helps to find the error in a gracefull way,it is the most beautifuland best way to handle the error handeling.

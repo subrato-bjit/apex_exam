@@ -1,0 +1,18 @@
+public static void updateContacts(List<Account> accounts) {
+    for (Account acc : accounts) {
+    List<Contact> contacts = [
+    SELECT Id, AccountId, Description
+    FROM Contact WHERE AccountId :acc.Id ];
+        for (Contact con : contacts) {
+            Boolean isDescriptonChanged = false;
+       
+        if (acc.Industry == 'Technology') {
+                 if(!isDescriptonChanged = con.Description){
+            con.Description = 'Technology Customer';
+                 }
+            
+}
+        update con;
+}
+}
+}

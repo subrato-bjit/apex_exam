@@ -1,0 +1,2 @@
+=> After performing the Batchable operation, We can use the LWC report to generated the Reports of total number of Accounts processed and the total
+number that failed.

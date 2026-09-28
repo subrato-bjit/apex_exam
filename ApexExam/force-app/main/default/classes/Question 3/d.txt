@@ -1,0 +1,7 @@
+Design an approach that prevents duplicate audit creation while still correctly detecting genuine Stage
+changes using the available trigger context data.
+
+
+=> We need to create a Booleand isStageChanged = 0;
+=> Then compare it with Trigger.new with Trigger.old and update the isStageChanged value
+=> If it changed we will update the isStageChanged value and perform the processingOfOpportunity.

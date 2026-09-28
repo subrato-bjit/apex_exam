@@ -1,0 +1,4 @@
+=> We can use Batchable asynchronous to prevent hitting governor-limit and transaction risk.
+=> can add Scheduler to run it in a fixed time.
+=> Implementcallout logic which will be call one for entire thing
+=> Use RollBack to prevent risk

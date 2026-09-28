@@ -1,0 +1,4 @@
+
+
+=> To solve this issue we can use Batchable/Queable to perform asynchround operation.
+=> Also use Scheduler to make the architecture more scalable
